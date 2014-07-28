@@ -9,8 +9,8 @@ from sqlalchemy.orm import sessionmaker
 from sqlalchemy.ext.declarative import declarative_base
 
 #%%
-srcConnectString = 'oracle://khfw:khfw123@new_sjck.world'
-desConnectString = 'oracle://khfw:khfw123@odsdb'
+srcConnectString = 'oracle://srcUser:password@scrdb'
+desConnectString = 'oracle://desUser:password@desdb'
 
 
 #%% 连接源数据库 
